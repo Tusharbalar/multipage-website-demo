@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Center any content inside this class */
+.hero {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #1f0c08;
+}
+
+.clipped-left {
+  -webkit-clip-path: url(#clipped-left);
+  clip-path: url(#clipped-left);
+}
+.clipped-right {
+  -webkit-clip-path: url(#clipped-right);
+  clip-path: url(#clipped-right);
+}
+
+#image1 {
+  background-image: url(images/background.jpg);
+}
+
+#image2 {
+  background-image: url(images/basketball.png);
+}
+
+#image3 {
+  background-image: url(images/library.png);
+}
+
+#image4 {
+  background-image: url(images/banner2.jpg);
+}
+
+.hero .elastic-slider {
+  cursor: grab;
+  width: 900px;
+  height: 600px;
+}
+
+.hero .elastic-slider div {
+  background-size: cover;
+  background-position: center;
+}
+
