@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0" />
+    <title>Website Design</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="slider.css" />
+    <link rel="stylesheet" href="elastic-slider.min.css">
+    <script src="elastic-slider.min.js"></script>
+    <script src="snap.svg-min.js"></script>
+  </head>
+  <body>
+
+    <div class="hero">
+      <!-- Basic HTML structure: A div with class 'elastic-slider' and three children at least -->
+      <div class="elastic-slider">
+        <div id="image1"></div>
+        <div id="image2"></div>
+        <div id="image3"></div>
+        <div id="image4"></div>
+      </div>
+    </div>
+
+    <!-- Simple 'elastic-slider' initialization -->
+    <script>
+      new ElasticSlider('.elastic-slider');
+    </script>
+  </body>
+  </html>
